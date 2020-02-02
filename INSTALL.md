@@ -1,8 +1,12 @@
 Install Guide 
 - install raspbain on rpi
+  - us keyboard
+  - wifi
 - change interal settings
   - turn on camera port
+  - turn on SSH
   - install specaial code for smaller display
+  - turn off UI (maybe)
 - download repo
   - open terminal
   - sudo mkdir /code
