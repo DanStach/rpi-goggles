@@ -1,5 +1,6 @@
 # rpi-goggles
 Raspberry Pi night vision goggle code. python code that creates a side by side stero view (steroscopic) from a single camera
+Install instruction can found in the [INSTALL.md](INSTALL.md)
 
 ## Hardware: (very fast)
 - RPi 3b+ (1-5% cpu usage)
