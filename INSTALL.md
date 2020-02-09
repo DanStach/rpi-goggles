@@ -21,6 +21,20 @@ Install Guide
     - `lcd_rotate = 2`
     - exit and save <cntr + x> --> Y --> <enter>
   - set hdmi screeen resolution via software
+    - https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config
+    - `sudo nano /boot/config.txt`
+    - add following code to the file (middle of file)
+      ```
+      # uncomment if hdmi display is not detected and composite is being output
+      hdmi_force_hotplug=1
+      # uncomment to force a specific HDMI mode (here we are forcing 800x480!)
+      hdmi_group=2
+      hdmi_mode=87
+      hdmi_cvt=800 480 60 6 0 0 0
+      hdmi_drive=1
+      ```
+    - exit and save <cntr + x> --> Y --> <enter>
+
 
 Todo: 
 - create training video on software setup
