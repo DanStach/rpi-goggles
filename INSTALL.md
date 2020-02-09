@@ -16,7 +16,7 @@ Install Guide
   - sudo python3 /code/rpi-goggles/nightvisiongoggles.py &
 - extra steps
   - rotate hdmi screen via software (180)
-    - `sudo nano /boot/config.txt`
+  - `sudo nano /boot/config.txt`
     - add following to last line of file
     - `lcd_rotate = 2`
     - exit and save <cntr + x> --> Y --> <enter>
@@ -34,6 +34,15 @@ Install Guide
       hdmi_drive=1
       ```
     - exit and save <cntr + x> --> Y --> <enter>
+  - set hdmi screeen resolution via software
+    - https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config
+    - `sudo nano /boot/config.txt`
+    - add following code to the file (middle of file)
+      ```
+      # allow rpi to allow max current from usb, to allow display to be powered from rpi
+      max_usb_current=1
+      ```
+
 
 
 Todo: 
