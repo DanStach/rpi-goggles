@@ -2,6 +2,9 @@ Install Guide
 - install raspbain on rpi
   - us keyboard
   - wifi
+- update raspbain
+  - sudo apt update
+  - sudo apt full-upgrade
 - change interal settings
   - sudo raspi-config
   - turn on camera port
