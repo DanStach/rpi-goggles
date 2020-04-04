@@ -3,6 +3,7 @@ Install Guide
   - us keyboard
   - wifi
 - change interal settings
+  - sudo raspi-config
   - turn on camera port
   - turn on SSH
   - install specaial code for smaller display
