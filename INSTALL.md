@@ -25,6 +25,8 @@ Install Guide
     - add following to last line of file
     - `lcd_rotate = 2`
     - exit and save <cntr + x> --> Y --> <enter>
+  - set composit vidoe settings (if not using HDMI)
+    - https://magpi.raspberrypi.org/articles/rca-pi-zero
   - set hdmi screeen resolution via software
     - https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config
     - `sudo nano /boot/config.txt`
