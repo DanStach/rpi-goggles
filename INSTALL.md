@@ -17,6 +17,7 @@ Install Guide
   - git clone https://github.com/DanStach/rpi-goggles
 - setup to run python code on startup
   - https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
+  - sudo nano /etc/rc.local
   - sudo python3 /code/rpi-goggles/nightvisiongoggles.py &
 - extra steps
   - rotate hdmi screen via software (180)
