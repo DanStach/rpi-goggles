@@ -3,14 +3,14 @@ from signal import pause
 
 # define values from the camera window
 #my desktop (pal) 720 x 576
-camResW = 720
-camResH = 576
-camFramR = 25
+camResW = 640
+camResH = 480
+camFramR = 30
 
 # starting corner of your windows (upper-left position) 
-cornerX = 500
-cornerY = 600
-windowSpacer = 10 # space between the 2 windows
+cornerX = 1
+cornerY = 1
+windowSpacer = 5 # space between the 2 windows
 
 camera = mo.MMALCamera()
 splitter = mo.MMALSplitter()
