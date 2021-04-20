@@ -19,7 +19,13 @@ Install Guide
   - https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
   - sudo nano /etc/rc.local
   - sudo python3 /code/rpi-goggles/nightvisiongoggles.py &
-- extra steps
+- extra steps for HDMI
+  - https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
+  - https://www.makeuseof.com/tag/connect-raspberry-pi-zero-tv/
+  - comment `hdmi_force_hotplug=1`
+  - uncomment `sdtv_mode=2`
+  - add to end `display_rotate=2`
+- extra steps for HDMI 
   - rotate hdmi screen via software (180)
   - `sudo nano /boot/config.txt`
     - add following to last line of file
