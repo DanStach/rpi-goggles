@@ -19,6 +19,10 @@ Install Guide
   - https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/
   - sudo nano /etc/rc.local
   - sudo python3 /code/rpi-goggles/nightvisiongoggles.py &
+- turn off LED light on camera
+  - https://raspberry-valley.azurewebsites.net/Disable-Camera-LED/
+  - sudo nano /boot/config.txt
+  - add line near end `disable_camera_led=1`
 - extra steps for HDMI
   - https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
   - https://www.makeuseof.com/tag/connect-raspberry-pi-zero-tv/
