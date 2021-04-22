@@ -23,13 +23,13 @@ Install Guide
   - https://raspberry-valley.azurewebsites.net/Disable-Camera-LED/
   - sudo nano /boot/config.txt
   - add line near end `disable_camera_led=1`
-- extra steps for HDMI
+- extra steps for tv display port (optional if used)
   - https://www.raspberrypi.org/documentation/configuration/config-txt/video.md
   - https://www.makeuseof.com/tag/connect-raspberry-pi-zero-tv/
   - comment `hdmi_force_hotplug=1`
   - uncomment `sdtv_mode=2`
   - add to end `display_rotate=2`
-- extra steps for HDMI 
+- extra steps for HDMI (optional if used)
   - rotate hdmi screen via software (180)
   - `sudo nano /boot/config.txt`
     - add following to last line of file
