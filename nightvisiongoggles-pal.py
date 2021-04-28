@@ -1,15 +1,28 @@
 from picamera import mmalobj as mo, mmal
 from signal import pause
+import picamera
 
 # define values from the camera window
-#my desktop (pal) 720 x 576
-camResW = 720
-camResH = 576
-camFramR = 25
+#my desktop (pal) 640 x 480
+camResW = 640
+camResH = 480
+camFramR = 20
 
+
+
+with picamera.PiCamera() as camera:
+    # Turn the camera's LED off
+    camera.led = False
+
+camera.resolution = (1280, 720)
+    camera.framerate = 24
+    camera.start_preview()
+pause()
+
+"""
 # starting corner of your windows (upper-left position) 
-cornerX = 500
-cornerY = 600
+cornerX = 1
+cornerY = 1
 windowSpacer = 10 # space between the 2 windows
 
 camera = mo.MMALCamera()
@@ -41,3 +54,5 @@ render_l.enable()
 render_r.enable()
 
 pause()
+
+"""
