@@ -2,26 +2,33 @@
 Raspberry Pi night vision goggle code. python code that creates a side by side stero view (steroscopic) from a single camera
 Install instruction can found in the [INSTALL.md](INSTALL.md)
 
-## Hardware Ver1:
+## Hardware Ver1: RPI3B+ Desktop Monitor
 - RPi 3b+ 
 - noir camera (arducam B003503)
   - Resolution: 5MP 2592×1944
   - Video: 1080p 30 fps, 720p 60fps, 480p 90fps
 - desktop monitor HDMI (1600x900)
 
-## Hardware Ver2:
+## Hardware Ver2: RPI3B+ 3.5in  LCD
 - RPi 3b+
 - noir camera (arducam B003503)
   - Resolution: 5MP 2592×1944
   - Video: 1080p 30 fps, 720p 60fps, 480p 90fps
 - 3.5 Inch HDMI (UCTRONICS)(480*320)
 
-## Hardware Ver3:
+## Hardware Ver3: RPI0W 7in LCD
 - RPi 0W
 - noir camera (arducam B003503)
   - Resolution: 5MP 2592×1944
   - Video: 1080p 30 fps, 720p 60fps, 480p 90fps
 -  7 Inch HDMI (MakerFocus)(800x480)
+
+## Hardware Ver4: RPI0W ViewFinder LCD
+- RPi 0W 
+- noir camera (arducam B003503)
+  - Resolution: 5MP 2592×1944
+  - Video: 1080p 30 fps, 720p 60fps, 480p 90fps
+- 3.3V VGA Micro View finder (640x480)
 
 ## Notes:
 - test: RPi 3b+ (1-5% cpu usage)

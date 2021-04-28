@@ -3,11 +3,10 @@ from signal import pause
 import picamera
 
 # define values from the camera window
-#my desktop (pal) 640 x 480
+#my desktop (pal) 720 x 576
 camResW = 640
 camResH = 480
-camFramR = 20
-
+camFramR = 30
 
 
 with picamera.PiCamera() as camera:
@@ -23,7 +22,7 @@ pause()
 # starting corner of your windows (upper-left position) 
 cornerX = 1
 cornerY = 1
-windowSpacer = 10 # space between the 2 windows
+windowSpacer = 5 # space between the 2 windows
 
 camera = mo.MMALCamera()
 splitter = mo.MMALSplitter()
